@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LINK WEB PAGES</title>
+<style>body{text-align:center;}
+table,th,td{border:1px;align:center;}
+th,td{border-style:solid;
+      border-color:#96D4D4;}
+.center{
+       margin-right: auto;
+       margin-left: auto;
+}
+#list-1{display: inline-block;text-align: left;}
+</style>
+</head>
+<body>
+<div>style="background-colour:powderblue;">
+<h2 id="heading">NAVIGATE TO DIFFERENT WEB PAGES</h2><br>
+<a id="login" href="#login-form">Login</a><br>
+<a id="table" href="#table-1">Table</a><br>
+<a id="about" href="#about-heading">About</a><br>
+</div>
+<div style="background-colour:Green;">
+<h3 style=color:green;font-size:50px;">Registration</h3><br>
+<form id="login-form">
+<lable for ="fname">First name:</label><br>
+<input type="text" id ="fname" name="fname"><br>
+<label for="Password">Password:</label><br>
+<input type="text" id="password" name="password"<br>
+<label for= "email">Email:</label><br>
+<input type="text" id="email" name="email"><br>
+<label for="courses">Courses:</label><br>
+<select name="courses" id="courses" multiple>
+<option value="Poster Making">Poster Making</option>
+<option value="Essay Writing">Essay Writing</option>
+<option value="Quiz">Quiz</option>
+<option value="Collage Making">Collage Making</option>
+<option value="Elocution">Elocution</option>
+</select>
+<br>
+<label for="Address">Address:</label>
+<textarea id="Address" name="Address" rows="4" cols="50"></textarea>
+<label for="datalist">Country:</label><br>
+<select name="countries" id="country">
+
+<option value="INDIA">INDIA</option>
+<option value="USA">USA</option>
+<option value="JAPAN">JAPAN</option>
+<option value="GERMANY">GERMAN</option>
+<option value="ENGLAND">ENGLAND</option>
+</datalist></select><br>
+<button id="submit_btn" type="submit" form="login-form" value="submit">Submit</button>
+</form></div>
+<div style="background-colour:powderblue;">
+<h1 id="heading">COMPETIONS</h1><br>
+<table class="center" id="table-1" style="width:50%;border:1px;">
+<tr>
+<th>ROLL NO</th>
+<th>NAME</th>
+<th>DEPARTMENT</th>
+<th>COURSES</th>
+</tr>
+<tr>
+<td>1001</td>
+<td>Anees</td>
+<td>IT</td>
+<td>Poster Making</td>
+</tr>
+<tr>
+<td>1302</td>
+<td>Arshiya</td>
+<td>CSE</td>
+<td>Essay Writing</td>
+</tr>
+<tr>
+<td>1503</td>
+<td>Aabidha</td>
+<td>ECE</td>
+<td>Quiz</td>
+</tr>
+<tr>
+<td>1704</td>
+<td>Abul</td>
+<td>EEE</td>
+<td>Collage Making</td>
+</tr>
+<tr>
+<td>1908</td>
+<td>Fathima</td>
+<td>CSE</td>
+<td>Elocution</td>
+</tr>
+</table><br>
+<h2 id="courses">COMPETIONS Available</h2>
+<ul id="list-1">
+<li>Poster Making</li>
+<li>Essay Writing</li>
+<li>Quiz</li>
+<li>Collage Making</li>
+<li>Elocution</li>
+</div>
+<div style="background-colour:powderblue;">
+<h1 id="about-heading">About Page</h1>
+<p id="description"> Our institution provides various competion to the students to improve their  respond positively to pressure and challenges,
+ and then adapt to move forward towards greater success.<i>If any problem in logging in please contact admin <snap style="color:red;">via email</snap>
+<a href=riya:"admin@email">click here!!</a>
+</p>
+</div>
+</body>
+</html>
